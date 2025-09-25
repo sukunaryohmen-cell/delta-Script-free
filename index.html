@@ -130,6 +130,54 @@
             color: #fff;
             padding: 1%;
         }
+
+        @media (max-width: 768px) {
+        .titulo {
+            flex-direction: column; /* Poner en columna */
+            text-align: center;
+            gap: 10px;
+        }
+
+        .titulo h1 {
+            font-size: 40px; /* Reducir tamaño en móvil */
+        }
+
+        .titulo p {
+            font-size: 16px;
+        }
+
+        .cap-titulo img {
+            width: 90%;   /* Que ocupe casi todo el ancho */
+            height: auto; /* Mantener proporción */
+        }
+
+        .contenedor-2 img,
+        .contenedor-3 img {
+            width: 100%;
+            height: auto;
+        }
+
+        .contenedor-3 {
+            flex-direction: column; /* Apilar en lugar de lado a lado */
+            gap: 20px;
+            text-align: center;
+        }
+
+        .boton-download img {
+            width: 100%;
+            height: auto;
+        }
+
+        .boton-download a {
+            display: inline-block;
+            font-size: 20px;
+            padding: 10px 30px;
+        }
+        }   
+
+
+
+
     </style>
 
 
